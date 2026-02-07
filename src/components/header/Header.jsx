@@ -5,10 +5,12 @@ import search from "../../assets/SEARCH.png"
 import icon from "../../assets/ICON (1).png"
 import map from "../../assets/MAP MARKER.png"
 import { Link } from "react-router-dom"
+import Saidbar from "./Saidbar"
 
 const Header = () => {
   return (
     <div className='container'>
+      <Saidbar/>
       <header>
         <div className="frst_header">
           <div className="frst_h2">
