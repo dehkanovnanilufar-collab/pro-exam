@@ -1,0 +1,63 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.keyboard_container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.keyboard {
+    width: 100%;
+    height: 330px;
+    margin-top: 150px;
+    padding: 30px 130px;
+    display: flex;
+     gap: 30px;
+}
+
+.keyboard_text {
+    width: 705px;
+    height: 330px;
+    border-radius: 8px;
+    background-color: #79636824;
+}
+
+.keyboard_t {
+    padding: 50px 60px;
+}
+
+.keyboard_t h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.keyboard_t p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.keyboard_t button {
+    width: 125px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+
+}
+@media(max-width:780px){
+   .keyboard{
+    transform: translate(93px,0px);
+   } 
+}
+
+
+
+

@@ -1,0 +1,49 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.flash {
+    height: 208px;
+    margin-top: 30px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.frst_flash {
+    width: 480px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    background-color: #00FAEB;
+    gap: 24px;
+    margin-left: -100px;
+    justify-content: center;
+}
+
+.scnd_flash {
+    width: 480px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    background-color: #1E1E1E;
+    gap: 24px;
+    margin-left: -40px;
+    justify-content: center;
+}
+.scnd_flash_h{
+    margin-right: 80px;
+}
+
+@media (max-width:780px){
+    .flash{
+      display: none;
+    }
+}
+
+
+

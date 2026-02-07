@@ -1,0 +1,166 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.arrivel_categories {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrivel {
+    /* width: 100%;
+    height: 700px; */
+    margin-top: 290px;
+}
+
+.arrivel_text {
+    position: absolute;
+    bottom: 230px;
+    left: 30px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 155px;
+}
+
+.big_one {
+    color: #fff;
+}
+
+.texts_arrivel {
+    width: 419px;
+    height: 372px;
+    margin-left: 980px;
+    margin-top: -510px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.divs {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.small_btn {
+    width: 103px;
+    height: 26px;
+    border: 1px solid #000;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+}
+
+.texts_arrivel button {
+    width: 149px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* --- Tablet Screens (<=1024px) --- */
+@media (max-width: 1024px) {
+  .arrivel {
+    margin-top: 200px;
+  }
+
+  .arrivel_text {
+    font-size: 100px;          /* Katta text kichrayadi */
+    bottom: 150px;
+    left: 20px;
+  }
+
+  .texts_arrivel {
+    width: 350px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -350px;
+    font-size: 16px;
+  }
+
+  .divs {
+    gap: 15px;
+  }
+
+  .small_btn {
+    width: 90px;
+    height: 24px;
+    padding: 15px;
+  }
+
+  .texts_arrivel button {
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+/* --- Mobile Screens (<=768px) --- */
+@media (max-width: 768px) {
+  .arrivel {
+    margin-top: 150px;
+  }
+
+  .arrivel_text {
+    font-size: 60px;
+    bottom: 100px;
+    left: 10px;
+    flex-direction: column;     /* Agar text juda uzun bo‘lsa, break qilinadi */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .texts_arrivel {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -250px;
+    font-size: 14px;
+  }
+
+  .divs {
+    flex-direction: column;     /* buttons vertical stack bo‘ladi */
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .small_btn {
+    width: 80px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  .texts_arrivel button {
+    width: 100%;
+    max-width: 140px;
+    height: 45px;
+    font-size: 12px;
+  }
+}
+
+
+
+@media(max-width:780px){
+    .arrivel{
+        width: 525px;
+        transform: translate(212px,50px);
+    }
+    .arrivel_text{
+        font-size: 48px;
+        transform: translate(20px ,-450px);   
+     }
+     .texts_arrivel{
+        transform: translate(-450px ,-250px);   
+     }
+    }

@@ -1,0 +1,88 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.Free {
+    height: 498px;
+    width: 100%;
+}
+
+.free_icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    align-items: center;
+}
+
+.free_icon h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.free_crd {
+    width: 595px;
+    height: 418px;
+    display: flex;
+    margin-left: 60px;
+    gap: 40px;
+    background-color: #00000014;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.free_divs {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.crds_free {
+    display: flex;
+}
+
+.div {
+    width: 44px;
+    height: 44px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.div_parag {
+    padding-top: 10px;
+}
+
+.Free_btn {
+    width: 177px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+ @media (max-width:780px){
+    .Free{
+     transform: translate(112px,0px);
+    }
+    .s{
+display: none;
+    }
+}
+
+
+
+

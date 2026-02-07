@@ -1,0 +1,87 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 770px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.bacg {
+    width: 100%;
+    height: 770px;
+}
+
+.banner_text {
+    width: 430px;
+    height: 508px;
+    margin-left: 140px;
+    margin-top: -580px;
+    color: #FFF;
+}
+
+.banner_text h2 {
+    width: 468px;
+    height: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.banner_text p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #CFCFCF;
+}
+
+.banner_ps {
+    width: 430px;
+    height: 128px;
+    border: 1px solid #CFCFCF;
+}
+
+.banner_btns {
+    display: flex;
+    gap: 20px;
+}
+
+.frst_btn {
+    width: 149px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00FAEB;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+
+.scnd_btn {
+    width: 144px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+
+}
+
+@media(max-width:780px){
+    .banner{
+        transform: translate(112px,0px);
+    }
+}
+

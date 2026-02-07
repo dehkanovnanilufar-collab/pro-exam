@@ -1,0 +1,44 @@
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.banner_container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 275px;
+    background-color: rgba(216, 211, 203, 0.533);
+    margin-top: 30px;
+}
+
+.banner_text {
+    width: 131px;
+    height: 88px;
+    padding: 44px 140px;
+}
+
+.banner h2 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+}
+
+.banner_p {
+    display: flex;
+    margin-top: -50px;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+
+}
+
+.banner_p2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
