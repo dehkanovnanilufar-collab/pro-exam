@@ -13,7 +13,6 @@ import Header from "./components/header/Header"
 import Keyboard from "./components/keyboard/Keyboard"
 import New from "./components/new/New"
 import Rate from "./components/rate/Rate"
-import "./Index.css"
 
 const App = () => {
   return (
